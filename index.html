@@ -10,6 +10,10 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    *{
+      box-sizing:border-box;
+      margin:0;
+    }
     .root {
       background-color: hsl(225, 100%, 94%);
       height: 100vh;
@@ -19,6 +23,11 @@
       align-items: center;
       justify-content: center;
     }
+    .proceedBtn-btn-container {
+    background-color: hsl(223, 47%, 23%);
+    color: #fff
+  
+  }
     
     @media only screen and (max-width: 480px) {
       .root {
@@ -61,6 +70,11 @@
     width: 85%;
     justify-content: space-around;
   };
+  
+
+
+
+  
 
 
   </style>
@@ -87,15 +101,17 @@
 
       <a href="#" class="foot-link">Change</a>
     </div>
-    <a href="#" class="proceed-button">Proceed to Payment</a>
-    <a href="#" class="cancel-button">CancelOrder</a>
+    
+    <button class="proceedBtn-btn-container">
+          Proceed to Payment
+    </button>
+    </div>
+    <a href="cancelBtn-btn-container">
+      Cancel Order
+    </a>
+    
 </div>
-</div>
 
-
-
-  
-  
- 
 </body>
+
 </html>
